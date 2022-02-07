@@ -1,0 +1,123 @@
+@media(max-width: 1024px) {
+
+    /* Home Css */
+    .home .home-banner-1,
+    .home .home-banner-2 {
+        background-position: 65% center;
+    }
+
+    .home .home-banner .home-banner-text {
+        transform: translate(-80%, -50%);
+    }
+
+    .offers .offer-box .offer-info .heading-bigger {
+        font-size: 3rem;
+    }
+
+    .special .countdown-container .countdown-counter li {
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media(max-width: 991px) {
+
+    /* Home Css */
+    .home .home-banner .home-banner-text {
+        transform: translate(-66%, -50%);
+    }
+
+    /* special CSS */
+    .special .countdown-container {
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }
+
+    .testimonial .carousel-control-prev {
+        left: -1.75rem;
+    }
+
+    .testimonial .carousel-control-next {
+        right: -1.75rem;
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    /* Home Css */
+    .home .home-banner-1,
+    .home .home-banner-2 {
+        min-height: 450px;
+        background-position: 50% center;
+    }
+
+    .home .home-banner .home-banner-text {
+        width: 100%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+
+    .home .home-banner .home-banner-text h1 {
+        font-size: 3rem;
+    }
+
+    .home .home-banner .home-banner-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .home .home-banner .home-banner-text .btn-danger {
+        padding: .5rem 1.5rem;
+    }
+
+    .home .slider-icon {
+        font-size: 2rem;
+    }
+
+    .offers .offer-box .offer-info .heading-bigger {
+        font-size: 2rem;
+    }
+
+    .products .up_to_content h2 {
+        font-size: 0.7rem;
+    }
+
+    /* special css */
+    .special {
+        padding: 4rem 0;
+    }
+
+    .special .countdown-container .countdown-counter li {
+        width: 20%;
+        padding: 1rem;
+    }
+
+}
+
+@media(max-width: 580px) {
+
+    /* Home Css */
+    .home .home-banner .home-banner-text h2 {
+        font-size: 1rem;
+    }
+
+    /* special css */
+    /* .special {
+        padding: 4rem 0;
+    }
+
+    .special .countdown-container .countdown-counter li {
+        width: 20%;
+        padding: 1rem;
+    } */
+
+    /* testimonial */
+    .testimonial .testimonial-wrapper {
+        padding: 1rem;
+    }
+
+    .testimonial .carousel-control-next-icon,
+    .testimonial .carousel-control-prev-icon {
+        display: none;
+    }
+
+}
